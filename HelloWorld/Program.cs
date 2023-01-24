@@ -11,6 +11,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
+            
             Console.WriteLine("Hello, whats your name?");
             string name = Console.ReadLine();
             Console.WriteLine("Digite o primeiro valor");
@@ -19,8 +20,18 @@ namespace HelloWorld
             float n2 = float.Parse(Console.ReadLine());
             float result = n1 * n2;
             Console.WriteLine("Seu nome é " + name);
-            Console.WriteLine("O valor da multiplicação é " + result );
+            Console.WriteLine("O valor da multiplicação é " + result);
             Console.ReadLine();
+            
+
+            //int numero1 = 1942;
+            //string cor = "Blue";
+            //float capacitancia = 3.15f;
+            //bool validation = true;
+            //capacitancia = 6.25f; --> 3.15f vira 6.25f
+
+
+
 
 
 
